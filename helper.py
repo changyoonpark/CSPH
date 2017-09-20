@@ -8,15 +8,15 @@ class Particle:
         self.lapl_f = None
         self.grad_f = None
         self.vol = None
+        self.kernelSum = 0
         self.B = None
         self.L = None
         self.A = None
         self.M = None
-        self.N0 = None
-        self.N1 = None
-        self.N2 = None
+        self.nneigh = 0
         self.P = None
         self.L = None
+        self.cond = None
         self.neigh = []
 
     def __str__(self):
